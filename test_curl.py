@@ -1,8 +1,3 @@
-import requests
-import json
-headers = {
-    'Authorization': 'Bearer XEl8AWNN3ZI7pmEpCGXTxXgBlSZ3dAge',
-}
 
 response = requests.get('https://api.box.com/2.0/files/311955005962', headers=headers)
 events_data = response.content
